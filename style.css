@@ -1,0 +1,86 @@
+/* General Styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background: #f8f8f8;
+  color: #333;
+  transition: background 0.3s, color 0.3s;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  margin-top: 10px;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 5px;
+  background: #4caf50;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #45a049;
+}
+
+.card {
+  background: white;
+  padding: 15px;
+  margin: 20px 0;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Dark Mode */
+.dark-mode {
+  background: #222;
+  color: white;
+}
+
+/* FAQ */
+.faq-question {
+  display: block;
+  width: 100%;
+  text-align: left;
+  background: #eee;
+  margin: 5px 0;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.faq-answer {
+  display: none;
+  padding: 10px;
+  background: #f4f4f4;
+  border-left: 3px solid #4caf50;
+}
+
+/* Form */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  padding: 8px;
+  margin: 5px 0 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.error {
+  color: red;
+  font-size: 0.9em;
+}
+
+.success {
+  color: green;
+  font-weight: bold;
+}
+
+
+
